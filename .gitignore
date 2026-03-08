@@ -1,0 +1,23 @@
+﻿__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+venv/
+.venv/
+env/
+
+# Large raw/processed artifacts (excluded from GitHub)
+data/raw/*.csv
+data/processed/vbz_delays_clean.csv
+data/processed/vbz_delays.db
+data/processed/*.sqlite
+
+# Keep analysis outputs (small CSV summaries + visuals)
+!data/processed/q1_*.csv
+!data/processed/q2_*.csv
+!data/processed/q3_*.csv
+!data/processed/q4_*.csv
+!data/processed/q5_*.csv
